@@ -11,12 +11,14 @@ public class LocationGetter extends PDFTextStripper{
     private List<Float> ycoords;
     private float lastY;
     private String lastLine;
+    List<List<TextPosition>> rawCharData;
     public LocationGetter() throws IOException {
         super();
         lastLine="";
         lastY=-1;
         lines=new ArrayList<String>();
         ycoords=new ArrayList<Float>();
+        rawCharData=new ArrayList<>();
     }
     @Override
     protected void writeString(String string, List<TextPosition> positions) throws IOException{
@@ -37,6 +39,7 @@ public class LocationGetter extends PDFTextStripper{
         //System.out.println("called, got line "+lines.get(lines.size()-1)+", index "+lastY);
         lines.add(lastLine);
         ycoords.add(lastY);//sometimes will result in extra newline
+        rawCharData.add(positions);
     }
     public List<Float> getYcoords(){
         return ycoords;

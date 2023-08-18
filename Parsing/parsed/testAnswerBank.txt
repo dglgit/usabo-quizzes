@@ -1,0 +1,120 @@
+c x
+b ap/cb 
+d ap 
+a ap/cb
+c ap
+bc ap
+d ap
+bcde ap
+d 
+abc
+c
+d
+c
+e
+c
+bd
+c
+abde
+c
+b
+c
+c
+c
+c
+b
+b
+c
+d
+b
+b
+d
+b
+c
+b
+c
+a
+a
+a
+d
+e
+e
+c
+e
+b
+b
+b
+b
+a
+b
+bd
+a
+c 
+b 
+b 
+a 
+b 
+c 
+a 
+b 
+c
+c
+b 
+be 
+b 
+a 
+a 
+b x
+c 
+d 
+b x
+a x
+c 
+d
+abe 
+c
+b x
+b 
+b 
+cd 
+d 
+d 
+c 
+d 
+d 
+c 
+d 
+c 
+b 
+b 
+bd 
+cd 
+c 
+e 
+ac 
+a x
+a x
+a x
+a x
+a x 
+be 
+c 
+a 
+d 
+d 
+e 
+a 
+b 
+a 
+b 
+b 
+abcd 
+c 
+e 
+a 
+a 
+b 
+e 
+e 
+e 
+e 
